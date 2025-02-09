@@ -1,3 +1,7 @@
+* {
+  padding: 0;
+  margin: 0;
+}
 body {
   position: absolute;
   height: 100vh;
@@ -75,11 +79,19 @@ p {
 .store-item {
   border-style:double;
   text-align: center;
-  color: black
+  color: black;
+
 }
 
 .description {
   background-color: white;
+}
+
+.description wrap{
+  display: flex;
+  justify-content: space-evenly; 
+  width: 100%;
+  bottom: 0; 
 }
 
 #title {
