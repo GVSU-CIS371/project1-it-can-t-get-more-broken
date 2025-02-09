@@ -85,6 +85,7 @@ footer {
 img {
   flex: 1;
   margin-top: 10px;
+  height: 100px;
   width: 150px;
   align-self: center;
   border: 3px black;
